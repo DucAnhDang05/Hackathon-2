@@ -41,11 +41,11 @@ void nhap_thong_tin(sv *studentList, int *n) {
 void in_thong_tin(sv *studentList, int *n) {
 	for(int i = 0; i < *n; i++) {
 		printf("Sinh vien %d: ", i + 1);
-		printf("Id: %d\n", studentList[i].id);
-		printf("Ten: %s\n", studentList[i].name);
-		printf("Ngay sinh: %s\n", studentList[i].birthday);
-		printf("Dia chi: %s\n", studentList[i].address);
-		printf("Status: %d\n", studentList[i].status);
+		printf("Id: %d", studentList[i].id);
+		printf("Ten: %s", studentList[i].name);
+		printf("Ngay sinh: %s", studentList[i].birthday);
+		printf("Dia chi: %s", studentList[i].address);
+		printf("Status: %d", studentList[i].status);
 		printf("\n");
 	}
 }
